@@ -1,15 +1,12 @@
-import { MantineProvider, Button, Title } from '@mantine/core';
+import { Routes, Route } from 'react-router-dom';
+import Login from './views';
 
 function App() {
   return (
-    <MantineProvider>
-      <div style={{ padding: 40 }}>
-        <Title order={1}>Welcome to Myco 🌱</Title>
-        <Button color="grape" size="md" radius="md" style={{ marginTop: 20 }}>
-          Connect to the Network
-        </Button>
-      </div>
-    </MantineProvider>
+    <Routes>
+       {/* <Route path="/" element={<Home />} /> */}
+       <Route path="/login" element={<Login />} />
+    </Routes>
   );
 }
 

@@ -1,33 +1,35 @@
-export const arcDarkTheme = {
-  colorScheme: 'dark',
-  colors: {
-    dark: [
-      '#1A1A1A', // background
-      '#222222', // surface
-      '#333333', // border
-      '#4A4A4A', // slight elevation surfaces
-      '#5A5A5A', // muted
-      '#6A6A6A', // muted stronger
-      '#7A7A7A', // softer strong
-      '#8A8A8A', // secondary text
-      '#9A9A9A', // lighter muted
-      '#AAAAAA', // very light muted
-    ],
-    primary: [
-      '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2',
-      '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2',
-    ],
-    secondary: [
-      '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2',
-      '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2',
-    ],
-    error: ['#D0021B'],
-    warning: ['#F5A623'],
-    success: ['#7ED321']
-  },
-  primaryColor: 'primary'
-};
-
+// primary: virtualColor({
+//   name: 'primary',
+//   dark: '#9B59B6', // Your purple
+//   light: '#9B59B6'
+// }),
+// colorScheme: 'dark',
+// colors: {
+//   dark: [
+//     '#1A1A1A', // background
+//     '#222222', // surface
+//     '#333333', // border
+//     '#4A4A4A', // slight elevation surfaces
+//     '#5A5A5A', // muted
+//     '#6A6A6A', // muted stronger
+//     '#7A7A7A', // softer strong
+//     '#8A8A8A', // secondary text
+//     '#9A9A9A', // lighter muted
+//     '#AAAAAA', // very light muted
+//   ],
+//   primary: [
+//     '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2',
+//     '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2', '#4A90E2',
+//   ],
+//   secondary: [
+//     '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2',
+//     '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2', '#50E3C2',
+//   ],
+//   error: ['#D0021B'],
+//   warning: ['#F5A623'],
+//   success: ['#7ED321']
+// },
+// primaryColor: 'primary'
 export const arcLightTheme = {
   colorScheme: 'light',
   colors: {
